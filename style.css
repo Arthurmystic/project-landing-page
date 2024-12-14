@@ -80,13 +80,8 @@ li {
 }
 
 img {
-    background-color: grey;
     height: auto;
     width: 200px;
-}
-
-#credits {
-    font-size: 8px;
 }
 
 button {
