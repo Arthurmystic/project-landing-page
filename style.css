@@ -104,18 +104,18 @@ img{
     height: 130px;
 }
 
-
-
 button{
     background-color: #3882f6;
     color: white;
-    border: none;
-
-    /* align-self: flex-start; */
-    border-radius: 6px;
-    font-size: 8px;
-    width: 48px;
+    
+    border-radius: 4px;
+    font-size: 0.7rem;
+    width: 64px;
     height: 16px;
+}
+
+#but1{
+    border: none;
 }
 
   .content-top{
@@ -192,8 +192,30 @@ button{
   }
 
   .content-lower{
-    min-height: 64px;
-    flex-shrink: 0;
+    padding: 48px;
+    
+    /* display: flex; */
+    /* min-height: 64px;
+    flex-shrink: 0; */
+  }
+
+  .inner-box{
+    padding: 32px;
+    color: white;
+    border-radius: 12px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #action-call{
+    margin-bottom: -1em;
+  }
+  .right-inner{
+    align-self: center;
+  }
+  #but2{
+    border: 1px solid white;
   }
 
   footer{
