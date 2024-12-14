@@ -78,10 +78,13 @@ html {
 }
 
 img{
-    border: 2px solid grey;
     background-color: grey;
-    width: 250px;
-    height: 130px;
+    height: auto;
+    width: 200px;
+}
+
+#credits{
+    font-size: 8px;
 }
 
 button{
@@ -99,14 +102,11 @@ button{
 
   .content-top{
     text-align: center;
-    /* border: 1px solid red; */
     padding: 16px 24px 24px;
     gap: 24px;
-    /* min-height: 64px; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    /* flex-shrink: 0; */
   }
 
   .info-header{
@@ -120,7 +120,6 @@ button{
     gap: 16px;
     flex-grow: 0;
     flex-shrink: 0;
-    /* border: 1px solid black; */
     justify-content: center;
   }
 
@@ -129,9 +128,6 @@ button{
     flex-direction: column;
     align-items: center;
     gap: 6px;
-    /* border: 1px solid red; */
-    /* flex-grow: 0;
-    flex-shrink: 0; */
     flex-wrap: wrap;
     
   }
@@ -145,7 +141,6 @@ button{
 
   #caption{
     font-size: 12px;
-    /* width: 80px;   */
     flex: 1;
   }
 
@@ -156,7 +151,6 @@ button{
     background-color: #e5e7eb;
     color: #1f2937;
     padding: 16px 24px 24px;
-    /* line-height: 1em; */
   }
 
   #quote{
@@ -173,11 +167,6 @@ button{
     padding: 48px;
     display: flex;
     justify-content: center;
-    
-    
-    /* display: flex; */
-    /* min-height: 64px;
-    flex-shrink: 0; */
   }
 
   .inner-box{
